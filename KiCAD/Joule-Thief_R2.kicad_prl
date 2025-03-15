@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer": 39,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -42,7 +42,6 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
-      "zones",
       "drc_warnings",
       "locked_item_shadows",
       "conflict_shadows",
@@ -57,7 +56,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Joule-Thief_R0 - Less Messy.kicad_prl",
+    "filename": "Joule-Thief_R2.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
