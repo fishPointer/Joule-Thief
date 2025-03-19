@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.3499999940395355
+      "zones": 0.4000000059604645
     },
     "selection_filter": {
       "dimensions": true,
@@ -32,6 +32,7 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
+      "ratsnest",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -41,7 +42,6 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
-      "zones",
       "drc_warnings",
       "locked_item_shadows",
       "conflict_shadows",
@@ -56,7 +56,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Joule-Thief_R5.kicad_prl",
+    "filename": "Joule-Thief_R6.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
