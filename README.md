@@ -4,7 +4,7 @@
 
 **Description:** High efficiency battery draining system with diagnostics and energy storage
 
-**Domain:** Low-power/precision power electronics
+**Domain:** Low-power/precision energy harvesting & instrumentation
 
 **Objectives:**
 - Extract all usable electrical energy from used/"dead" Alkaline Cells (AA, AAA, etc.)
