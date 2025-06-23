@@ -1,0 +1,98 @@
+{
+    "actions": [
+    ],
+    "checksum": "",
+    "decoder": 0,
+    "frameDetection": 0,
+    "frameEnd": "\\n",
+    "frameParser": "/**\n * Splits a data frame into an array of elements using a comma separator.\n *\n * Use this function to break a string (like \"value1,value2,value3\") into\n * individual pieces, which can then be displayed or processed in your project.\n *\n * @param[in]  frame   A string containing the data frame.\n *                     Example: \"value1,value2,value3\"\n *\n * @return     An array of strings with the split elements.\n *             Example: [\"value1\", \"value2\", \"value3\"]\n *\n * @note You can declare global variables outside this function if needed\n *       for storing settings or keeping state between calls.\n \n */\n \n \n \n function parse(frame) {\n    return frame.split(',');\n}\n\n\n\n\n/*\n\nfunction parse(frame) {\n    // Log the received frame and separator to the terminal\n    console.log(\"Received frame: \" + frame);\n    console.log(\"Using separator: \" + ',');\n\n    // Split the frame based on the separator and log the result\n    let parsedValues = frame.split(',');\n    console.log(\"Parsed values: \" + JSON.stringify(parsedValues));\n\n    // Return the parsed values\n    return parsedValues;\n}\n*/\n\n\n\n",
+    "frameStart": "$",
+    "groups": [
+        {
+            "datasets": [
+                {
+                    "alarm": 5,
+                    "fft": false,
+                    "fftSamples": 256,
+                    "fftSamplingRate": 100,
+                    "graph": false,
+                    "index": 1,
+                    "led": false,
+                    "ledHigh": 1,
+                    "log": false,
+                    "max": 5,
+                    "min": 0,
+                    "overviewDisplay": false,
+                    "title": "Bus Voltage",
+                    "units": "V",
+                    "value": "--.--",
+                    "widget": "bar",
+                    "xAxis": -1
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 256,
+                    "fftSamplingRate": 100,
+                    "graph": false,
+                    "index": 2,
+                    "led": false,
+                    "ledHigh": 1,
+                    "log": false,
+                    "max": 40,
+                    "min": 0,
+                    "overviewDisplay": false,
+                    "title": "Shunt Voltage",
+                    "units": "mV",
+                    "value": "--.--",
+                    "widget": "bar",
+                    "xAxis": -1
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 256,
+                    "fftSamplingRate": 100,
+                    "graph": false,
+                    "index": 3,
+                    "led": false,
+                    "ledHigh": 1,
+                    "log": false,
+                    "max": 400,
+                    "min": 0,
+                    "overviewDisplay": false,
+                    "title": "Current",
+                    "units": "mA",
+                    "value": "--.--",
+                    "widget": "bar",
+                    "xAxis": -1
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 256,
+                    "fftSamplingRate": 100,
+                    "graph": false,
+                    "index": 4,
+                    "led": false,
+                    "ledHigh": 1,
+                    "log": false,
+                    "max": 250,
+                    "min": 0,
+                    "overviewDisplay": false,
+                    "title": "Power",
+                    "units": "mW",
+                    "value": "--.--",
+                    "widget": "bar",
+                    "xAxis": -1
+                }
+            ],
+            "title": "INA219 Diagnostics",
+            "widget": ""
+        }
+    ],
+    "hexadecimalDelimiters": false,
+    "mapTilerApiKey": "",
+    "thunderforestApiKey": "",
+    "title": "INA219 Diagnostics Panel"
+}

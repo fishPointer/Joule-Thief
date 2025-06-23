@@ -1,0 +1,6 @@
+LTspice 24.1.9 for Windows
+Circuit: E:\Dropbox\SUNEATER LABS\SUNEATER LABS\!PROJECTS\Joule-Thief\LTSpice\Joule Thief R4 V1.net
+Start Time: Sat Jun 14 22:10:20 2025
+E:\Dropbox\SUNEATER LABS\SUNEATER LABS\!PROJECTS\Joule-Thief\LTSpice\Joule Thief R4 V1.net(23): Node or model name expected.
+M1 N004 N010 OUT OUT IRF9540N
+                    ^^^^^^^^^
