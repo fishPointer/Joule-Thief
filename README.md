@@ -1,7 +1,9 @@
 # Joule Thief
 
 **Purpose:** Project Demo at Open Sauce July 18-20, 2025
+
 **Description:** High efficiency battery draining system with diagnostics and energy storage
+
 **Domain:** Low-power/precision power electronics
 
 **Objectives:**
