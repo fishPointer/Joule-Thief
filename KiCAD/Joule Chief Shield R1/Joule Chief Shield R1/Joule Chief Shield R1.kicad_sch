@@ -2730,8 +2730,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U13"
-				(at -1.27 16.51 0)
+			(property "Reference" "U7"
+				(at -5.08 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2739,7 +2739,7 @@
 				)
 			)
 			(property "Value" "FS8205A"
-				(at -1.27 13.97 0)
+				(at 1.778 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5305,9 +5305,9 @@
 		)
 		(uuid "013ac279-d6f1-4788-b7c6-79d75d81c777")
 	)
-	(text "SUPPLY CELL\nPOWER MONITOR"
+	(text "INCOMING POWER MONITOR"
 		(exclude_from_sim no)
-		(at 76.2 192.786 0)
+		(at 75.438 190.246 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5348,9 +5348,9 @@
 		)
 		(uuid "63ba00f4-f53a-4e0b-aa5b-cc4a868b09ba")
 	)
-	(text "LOAD CELL\nPOWER MONITOR"
+	(text "OUTGOING POWER MONITOR"
 		(exclude_from_sim no)
-		(at 304.546 192.278 0)
+		(at 304.038 189.738 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -5508,6 +5508,12 @@
 		(uuid "0665b12a-a69a-4c0d-8d66-f79b1cf4b76c")
 	)
 	(junction
+		(at 58.42 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06eadd35-4659-40f0-a979-6ff1df12c9aa")
+	)
+	(junction
 		(at 73.66 256.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5568,6 +5574,12 @@
 		(uuid "335dfe58-39b8-45d2-88b2-16a9e8145a71")
 	)
 	(junction
+		(at 102.87 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34068ef8-ac4e-4664-bc6e-778b95b6fa97")
+	)
+	(junction
 		(at 314.96 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5610,6 +5622,12 @@
 		(uuid "56ba1ff6-e0a2-40ee-89e2-b79c9710d8be")
 	)
 	(junction
+		(at 450.85 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5752c310-cfdf-48b4-9553-d7b84cc81025")
+	)
+	(junction
 		(at 302.26 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5622,6 +5640,12 @@
 		(uuid "580ece67-f332-4321-86aa-0a68d177dbd2")
 	)
 	(junction
+		(at 60.96 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58822fe1-57b4-4553-91f2-33a836d0a807")
+	)
+	(junction
 		(at 64.77 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5632,12 +5656,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b0af5f5-16fb-40ef-8f56-3b5165dca1a3")
-	)
-	(junction
-		(at 128.27 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cfd17cd-2d8f-4510-aebf-d6dccf62d656")
 	)
 	(junction
 		(at 73.66 255.27)
@@ -5686,6 +5704,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76f7259a-0dde-45c1-933a-989747497b5b")
+	)
+	(junction
+		(at 55.88 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e8eaa5b-4b47-404b-bc33-0752eb34e1b4")
 	)
 	(junction
 		(at 140.97 165.1)
@@ -5754,12 +5778,6 @@
 		(uuid "a16dfc6d-1a19-4009-a866-66038943e870")
 	)
 	(junction
-		(at 102.87 242.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2269462-77f8-4fde-a780-e318da6e5eea")
-	)
-	(junction
 		(at 73.66 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5770,6 +5788,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a39cd43f-2efb-4b95-9aaf-738f04df9750")
+	)
+	(junction
+		(at 60.96 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3eaf02a-89b1-4760-a234-007d0311fe48")
 	)
 	(junction
 		(at 185.42 292.1)
@@ -5826,6 +5850,12 @@
 		(uuid "c89a504f-ff1c-4c78-bdb4-5ad2e406e673")
 	)
 	(junction
+		(at 128.27 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca3d1629-41a2-4971-a356-1e20fa0aedf3")
+	)
+	(junction
 		(at 64.77 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5880,6 +5910,12 @@
 		(uuid "e81d881d-fa9f-4ccc-84cf-c15371f6cd10")
 	)
 	(junction
+		(at 472.44 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea99495c-c58c-42fa-8983-2fb4bf3ae2c0")
+	)
+	(junction
 		(at 435.61 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5909,15 +5945,13 @@
 		(color 0 0 0 0)
 		(uuid "fc5010d2-6f7c-4301-a96d-9b0aff0d1ec7")
 	)
-	(junction
-		(at 78.74 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd0f746b-392b-4005-bd11-aa29e8b3a381")
-	)
 	(no_connect
 		(at 452.12 209.55)
 		(uuid "0b25c396-5e7b-4fbc-979b-b02074cee76c")
+	)
+	(no_connect
+		(at 50.8 168.91)
+		(uuid "1228444e-d4ce-405c-89c4-53f1f8ad2c26")
 	)
 	(no_connect
 		(at 469.9 242.57)
@@ -5928,12 +5962,60 @@
 		(uuid "1a1af473-ef61-4c29-999e-ef1d8a7e820e")
 	)
 	(no_connect
+		(at 104.14 173.99)
+		(uuid "2c84933e-3b48-4241-9c48-a090dec2fbf9")
+	)
+	(no_connect
 		(at 173.99 270.51)
 		(uuid "2e8efffa-68c3-4f6c-9566-7ff88fc8ba20")
 	)
 	(no_connect
+		(at 104.14 168.91)
+		(uuid "3276c404-d702-4ed0-b0c7-34d57d885d1f")
+	)
+	(no_connect
+		(at 104.14 133.35)
+		(uuid "3eaa5ae5-eb2b-4f74-8da4-af76ed667a43")
+	)
+	(no_connect
+		(at 48.26 138.43)
+		(uuid "483b130c-c18f-4077-91e0-668608f9d014")
+	)
+	(no_connect
+		(at 104.14 176.53)
+		(uuid "80b919ee-1413-4fa6-ba02-3af6da452b93")
+	)
+	(no_connect
 		(at 173.99 283.21)
 		(uuid "82cddd96-1056-4143-9f63-8b3627ba4e5f")
+	)
+	(no_connect
+		(at 50.8 166.37)
+		(uuid "8fa563a4-86c3-4e86-bc80-149c94982427")
+	)
+	(no_connect
+		(at 48.26 135.89)
+		(uuid "9ae58c10-edcb-4ea7-a71d-56340c69626c")
+	)
+	(no_connect
+		(at 104.14 179.07)
+		(uuid "9e86452f-44fb-43a4-86a1-7c830b088e44")
+	)
+	(no_connect
+		(at 50.8 163.83)
+		(uuid "9edd9148-6695-4cde-bb36-5697df68f13b")
+	)
+	(no_connect
+		(at 50.8 171.45)
+		(uuid "a963017e-ee48-4259-88b2-1b1b3b2bd566")
+	)
+	(no_connect
+		(at 104.14 171.45)
+		(uuid "acce51c1-f68c-4b54-ad1a-e4605c5e6576")
+	)
+	(no_connect
+		(at 50.8 173.99)
+		(uuid "c4fe4eee-4a2c-422a-8c3a-6e64e987a16d")
 	)
 	(no_connect
 		(at 199.39 278.13)
@@ -5946,6 +6028,14 @@
 	(no_connect
 		(at 453.39 242.57)
 		(uuid "db97e38d-5fca-498c-a9c3-53f3e69e248f")
+	)
+	(no_connect
+		(at 405.13 217.17)
+		(uuid "ee38e12f-9c96-40d9-85c8-5c0a9631cd6c")
+	)
+	(no_connect
+		(at 50.8 161.29)
+		(uuid "ef48923b-6531-473e-bb49-d01faf923456")
 	)
 	(wire
 		(pts
@@ -6049,16 +6139,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 242.57) (xy 93.98 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0845fde0-d836-4a5b-a6a9-fd17c31c2478")
-	)
-	(wire
-		(pts
 			(xy 91.44 146.05) (xy 107.95 146.05)
 		)
 		(stroke
@@ -6086,16 +6166,6 @@
 			(type default)
 		)
 		(uuid "0a6a3c37-c33e-4013-9a8b-8feb581fd735")
-	)
-	(wire
-		(pts
-			(xy 81.28 212.09) (xy 78.74 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bccb6d3-a160-4bfc-b1b1-08d786887f21")
 	)
 	(wire
 		(pts
@@ -6329,16 +6399,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 218.44) (xy 86.36 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18c6c570-9f06-4f8e-b52f-7d4391c09ee8")
-	)
-	(wire
-		(pts
 			(xy 93.98 125.73) (xy 93.98 130.81)
 		)
 		(stroke
@@ -6539,16 +6599,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 242.57) (xy 331.47 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bfc8666-c44d-4524-b98e-566c06d0afab")
-	)
-	(wire
-		(pts
 			(xy 254 227.33) (xy 254 231.14)
 		)
 		(stroke
@@ -6569,16 +6619,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 218.44) (xy 81.28 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c8f9a4a-1e2b-42c3-9c1d-72240bbf90d1")
-	)
-	(wire
-		(pts
 			(xy 186.69 292.1) (xy 185.42 292.1)
 		)
 		(stroke
@@ -6589,7 +6629,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 148.59) (xy 60.96 153.67)
+			(xy 60.96 148.59) (xy 60.96 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6819,7 +6859,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 128.27) (xy 58.42 143.51)
+			(xy 58.42 128.27) (xy 58.42 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6969,7 +7009,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 128.27) (xy 60.96 140.97)
+			(xy 60.96 128.27) (xy 60.96 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7206,16 +7246,6 @@
 			(type default)
 		)
 		(uuid "4fae5bf9-67a1-4962-8786-ddcf57614134")
-	)
-	(wire
-		(pts
-			(xy 104.14 242.57) (xy 102.87 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fb14510-bc22-4b84-8091-84437ba8e1bf")
 	)
 	(wire
 		(pts
@@ -7609,6 +7639,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 242.57) (xy 102.87 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673203fb-b301-4029-88cb-ff61777eeec5")
+	)
+	(wire
+		(pts
 			(xy 186.69 290.83) (xy 186.69 292.1)
 		)
 		(stroke
@@ -7819,6 +7859,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 215.9) (xy 86.36 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765ef59d-c86f-4789-8fd4-f6471ccf3094")
+	)
+	(wire
+		(pts
 			(xy 288.29 266.7) (xy 290.83 266.7)
 		)
 		(stroke
@@ -8009,6 +8059,26 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 212.09) (xy 128.27 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833e1cba-dd22-4e43-9120-a46a8739a68e")
+	)
+	(wire
+		(pts
+			(xy 58.42 132.08) (xy 58.42 143.51)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "848b8e77-c112-4f00-8780-d1bfc7621c8b")
+	)
+	(wire
+		(pts
 			(xy 93.98 135.89) (xy 93.98 153.67)
 		)
 		(stroke
@@ -8096,16 +8166,6 @@
 			(type default)
 		)
 		(uuid "889ad5e4-ce0f-4b77-95d8-c3fd2883835a")
-	)
-	(wire
-		(pts
-			(xy 102.87 242.57) (xy 102.87 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88fed148-0ba9-4693-be16-4ccb1e5f4e97")
 	)
 	(wire
 		(pts
@@ -8659,6 +8719,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 130.81) (xy 55.88 128.27)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "ac960414-9a2d-4f8f-b6ec-3b5ffeb802d2")
+	)
+	(wire
+		(pts
 			(xy 185.42 292.1) (xy 185.42 293.37)
 		)
 		(stroke
@@ -8899,6 +8969,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 212.09) (xy 64.77 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc419ef8-29ba-4c35-a327-7b4c50aae30e")
+	)
+	(wire
+		(pts
 			(xy 453.39 237.49) (xy 444.5 237.49)
 		)
 		(stroke
@@ -8996,6 +9076,16 @@
 			(type default)
 		)
 		(uuid "c1fcf218-4ba8-4db7-9ce2-52b7d49a2a12")
+	)
+	(wire
+		(pts
+			(xy 93.98 242.57) (xy 102.87 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2566577-c8b2-4f56-a2cd-ae61f4348f17")
 	)
 	(wire
 		(pts
@@ -9119,6 +9209,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 215.9) (xy 81.28 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9474ea0-aabf-4605-9aac-167acc5364d1")
+	)
+	(wire
+		(pts
 			(xy 212.09 237.49) (xy 212.09 234.95)
 		)
 		(stroke
@@ -9146,16 +9246,6 @@
 			(type default)
 		)
 		(uuid "cd85a28e-95e5-4688-8635-983d9493fc16")
-	)
-	(wire
-		(pts
-			(xy 128.27 212.09) (xy 128.27 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd8b84fa-ca43-4687-be00-f493bec2c28a")
 	)
 	(wire
 		(pts
@@ -9256,16 +9346,6 @@
 			(type default)
 		)
 		(uuid "d2d44b3e-231b-401d-88d4-dae52a3e2a00")
-	)
-	(wire
-		(pts
-			(xy 64.77 208.28) (xy 64.77 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f8cc2a-0489-4a7d-ac12-019b9cc3aa9d")
 	)
 	(wire
 		(pts
@@ -9439,6 +9519,26 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 152.4) (xy 60.96 153.67)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e14cda61-4c41-47b4-b8bb-f16d45e27b60")
+	)
+	(wire
+		(pts
+			(xy 60.96 133.35) (xy 60.96 140.97)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e16f2f7c-9f0d-4dca-97e6-e62cb34c1d32")
+	)
+	(wire
+		(pts
 			(xy 189.23 143.51) (xy 189.23 144.78)
 		)
 		(stroke
@@ -9446,16 +9546,6 @@
 			(type default)
 		)
 		(uuid "e1aaba90-5f78-4512-a173-3973485d2134")
-	)
-	(wire
-		(pts
-			(xy 64.77 212.09) (xy 64.77 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3277393-cb34-4a3c-bdb4-783e5926f6b2")
 	)
 	(wire
 		(pts
@@ -9476,6 +9566,16 @@
 			(type default)
 		)
 		(uuid "e47ad23a-6e18-4b13-985e-70ab2da37c4f")
+	)
+	(wire
+		(pts
+			(xy 64.77 208.28) (xy 64.77 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6564b2b-b6ba-40c2-a391-de9c45c0f503")
 	)
 	(wire
 		(pts
@@ -9709,7 +9809,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 151.13) (xy 55.88 128.27)
+			(xy 55.88 151.13) (xy 55.88 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10016,16 +10116,6 @@
 			(justify right bottom)
 		)
 		(uuid "bbf52cf8-6d97-4499-a9ee-3657cebcdabf")
-	)
-	(label "Vin"
-		(at 55.88 128.27 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c348793d-eec0-4f33-9b91-2cae8b4224a4")
 	)
 	(label "*6"
 		(at 104.14 163.83 180)
@@ -12651,7 +12741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d71aa9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0114"
 			(at 60.96 132.08 0)
 			(effects
 				(font
@@ -12700,7 +12790,7 @@
 		(instances
 			(project "Arduino_Uno"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -12715,7 +12805,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d71d10")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0113"
 			(at 58.42 132.08 0)
 			(effects
 				(font
@@ -12764,7 +12854,7 @@
 		(instances
 			(project "Arduino_Uno"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -12779,7 +12869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d721e6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0116"
 			(at 60.96 160.02 0)
 			(effects
 				(font
@@ -12827,7 +12917,7 @@
 		(instances
 			(project "Arduino_Uno"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -12933,7 +13023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d72a3d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0117"
 			(at 93.98 160.02 0)
 			(effects
 				(font
@@ -12981,7 +13071,7 @@
 		(instances
 			(project "Arduino_Uno"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -13179,7 +13269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 209.55 287.02 0)
 			(effects
 				(font
@@ -13231,7 +13321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03e3efd4-ee0a-4e64-9102-69fbf3125960")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0139"
 			(at 222.25 243.84 0)
 			(effects
 				(font
@@ -13281,7 +13371,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -13364,7 +13454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "043da94e-3873-41f0-a17b-af3f12e37c0a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0119"
 			(at 93.98 123.19 0)
 			(effects
 				(font
@@ -13413,7 +13503,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -13429,7 +13519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05acca2e-29b8-4eb1-89dc-b8ddcc417185")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0107"
 			(at 328.93 182.88 0)
 			(effects
 				(font
@@ -13479,7 +13569,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -13495,7 +13585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "094b9e1d-817f-47c9-9ff6-4f7b615c3035")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 128.27 237.49 0)
 			(effects
 				(font
@@ -13545,7 +13635,75 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 58.42 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a5b5b00-8f32-4440-a9ae-c2dd53f2bcad")
+		(property "Reference" "#FLG0103"
+			(at 56.515 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 57.1499 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 58.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb61b8fb-8cf6-4fdf-ae10-17c63222080f")
+		)
+		(instances
+			(project "Joule Chief Shield R1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0103")
 					(unit 1)
 				)
 			)
@@ -13579,7 +13737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 356.87 153.67 0)
 			(effects
 				(font
@@ -13640,7 +13798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ace6e68-1141-4cff-a739-00852d5bb758")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG0101"
 			(at 158.75 210.185 0)
 			(effects
 				(font
@@ -13691,7 +13849,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG?")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -13707,7 +13865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0afc00d4-682b-425e-9ec2-97252a92f35c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0120"
 			(at 336.55 182.88 0)
 			(effects
 				(font
@@ -13757,7 +13915,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -13870,7 +14028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 66.04 259.08 0)
 			(effects
 				(font
@@ -13939,7 +14097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical"
 			(at 129.54 119.38 0)
 			(effects
 				(font
@@ -14160,7 +14318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 209.55 289.56 0)
 			(effects
 				(font
@@ -14405,7 +14563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical"
 			(at 213.36 119.38 0)
 			(effects
 				(font
@@ -14544,7 +14702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "155ee4c5-9d9e-436c-b9fe-2aeb8842a070")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 102.87 256.54 0)
 			(effects
 				(font
@@ -14594,7 +14752,75 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 55.88 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15925229-5652-4c1e-aa0e-24ffb9379a1d")
+		(property "Reference" "#FLG0102"
+			(at 53.975 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 54.6099 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 55.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84276174-30aa-47b6-b773-ec02fceca0f4")
+		)
+		(instances
+			(project "Joule Chief Shield R1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -14626,7 +14852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 175.26 219.71 0)
 			(effects
 				(font
@@ -14675,7 +14901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1897b745-8594-460b-a1d0-2c83aece986e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0103"
 			(at 300.99 182.88 0)
 			(effects
 				(font
@@ -14725,7 +14951,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -14759,7 +14985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 300.99 153.67 0)
 			(effects
 				(font
@@ -14837,7 +15063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical"
 			(at 241.3 119.38 0)
 			(effects
 				(font
@@ -14970,7 +15196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f009f0f-19bf-48b6-9195-0e74852deea2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0127"
 			(at 189.23 147.32 0)
 			(effects
 				(font
@@ -15019,7 +15245,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -15178,7 +15404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "233b8f77-ec52-430f-ad8b-456a17ca5843")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0136"
 			(at 140.97 182.88 0)
 			(effects
 				(font
@@ -15228,7 +15454,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -15260,7 +15486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Joule Thief-Library:Power_Inductor_101040"
+		(property "Footprint" "000_Dropbin:Power_Inductor_101040"
 			(at 185.42 199.39 0)
 			(effects
 				(font
@@ -15312,7 +15538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26a00fe9-06ca-4574-9376-e9769187aa99")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0147"
 			(at 163.83 242.57 0)
 			(effects
 				(font
@@ -15362,7 +15588,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -15396,7 +15622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 294.64 264.16 0)
 			(effects
 				(font
@@ -15448,7 +15674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d509dc3-67ee-4e30-941a-3cf85010912e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0146"
 			(at 153.67 242.57 0)
 			(effects
 				(font
@@ -15498,7 +15724,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -15532,7 +15758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 294.64 256.54 0)
 			(effects
 				(font
@@ -15584,7 +15810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "305efdb6-edf7-4338-a8e6-20513b6aa20b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0129"
 			(at 245.11 182.88 0)
 			(effects
 				(font
@@ -15634,7 +15860,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -15649,7 +15875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31d2c2b0-402d-44cb-9cf2-907908edd406")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0128"
 			(at 217.17 147.32 0)
 			(effects
 				(font
@@ -15698,7 +15924,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -15946,7 +16172,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 189.23 153.67 0)
 			(effects
 				(font
@@ -16025,7 +16251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 66.04 256.54 0)
 			(effects
 				(font
@@ -16166,7 +16392,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 245.11 153.67 0)
 			(effects
 				(font
@@ -16384,7 +16610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 294.64 251.46 0)
 			(effects
 				(font
@@ -16646,7 +16872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49cd8024-0111-447b-bfd0-abb4c3aeb50f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0112"
 			(at 331.47 256.54 0)
 			(effects
 				(font
@@ -16696,7 +16922,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -16730,7 +16956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "000_Dropbin:1F_Supercap"
 			(at 128.27 223.52 0)
 			(effects
 				(font
@@ -16870,7 +17096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 294.64 254 0)
 			(effects
 				(font
@@ -16940,7 +17166,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 217.17 153.67 0)
 			(effects
 				(font
@@ -17001,7 +17227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51e82a27-a2eb-46d5-b3f0-7e569b564e43")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0105"
 			(at 280.67 182.88 0)
 			(effects
 				(font
@@ -17051,7 +17277,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -17067,7 +17293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "526e71ec-d42f-424f-b634-3d76ab961749")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0130"
 			(at 252.73 182.88 0)
 			(effects
 				(font
@@ -17117,7 +17343,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -17133,7 +17359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52974291-eff4-4f5b-8075-af33353efc5d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0143"
 			(at 185.42 243.84 0)
 			(effects
 				(font
@@ -17183,7 +17409,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -17216,7 +17442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical"
 			(at 157.48 119.38 0)
 			(effects
 				(font
@@ -17279,7 +17505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54b7408d-ed90-4a47-a589-e23e2bd5aa8b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0106"
 			(at 328.93 147.32 0)
 			(effects
 				(font
@@ -17328,7 +17554,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -17362,7 +17588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 66.04 266.7 0)
 			(effects
 				(font
@@ -17413,7 +17639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55edd437-35ec-422a-98ad-a384c6d22e25")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0133"
 			(at 245.11 147.32 0)
 			(effects
 				(font
@@ -17462,7 +17688,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -17691,7 +17917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ca20c89-dc15-4322-ac65-caf5d0f5fcce")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0115"
 			(at 55.88 132.08 0)
 			(effects
 				(font
@@ -17742,7 +17968,7 @@
 		(instances
 			(project "Arduino_Uno"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -17758,7 +17984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dfa4658-55f9-4147-9631-0f4a09c476d5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0138"
 			(at 161.29 182.88 0)
 			(effects
 				(font
@@ -17808,7 +18034,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -17983,7 +18209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 66.04 251.46 0)
 			(effects
 				(font
@@ -18035,7 +18261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "618c7a5f-3cb8-4ac5-9298-84e501309caf")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0131"
 			(at 224.79 182.88 0)
 			(effects
 				(font
@@ -18085,7 +18311,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -18204,7 +18430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 66.04 264.16 0)
 			(effects
 				(font
@@ -18273,7 +18499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical"
 			(at 269.24 119.38 0)
 			(effects
 				(font
@@ -18354,7 +18580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical"
 			(at 297.18 119.38 0)
 			(effects
 				(font
@@ -18435,7 +18661,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 387.35 223.52 0)
 			(effects
 				(font
@@ -18569,7 +18795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d03e2e6-cc23-4b66-bce9-957141cbcd00")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0144"
 			(at 190.5 270.51 0)
 			(effects
 				(font
@@ -18619,7 +18845,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -18722,7 +18948,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 222.25 220.98 0)
 			(effects
 				(font
@@ -18792,7 +19018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "000_Dropbin:1F_Supercap"
 			(at 254 223.52 0)
 			(effects
 				(font
@@ -18843,7 +19069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72348b96-8156-4794-9c22-d2f4f5b598be")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0121"
 			(at 356.87 147.32 0)
 			(effects
 				(font
@@ -18892,7 +19118,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -18925,7 +19151,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 387.35 218.44 0)
 			(effects
 				(font
@@ -19124,7 +19350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83058ded-ca20-4db0-a21e-5e2a7d291b9b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0109"
 			(at 273.05 147.32 0)
 			(effects
 				(font
@@ -19173,7 +19399,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -19189,7 +19415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "834c79fa-a880-4dd3-bd89-654defa76669")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0111"
 			(at 254 237.49 0)
 			(effects
 				(font
@@ -19239,7 +19465,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -19347,7 +19573,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 328.93 153.67 0)
 			(effects
 				(font
@@ -19425,7 +19651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Joule Thief-Library:18650_Cell_Clip"
+		(property "Footprint" "000_Dropbin:18650_Cell_Clip_V2"
 			(at 499.11 220.726 90)
 			(effects
 				(font
@@ -19754,7 +19980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bc0d96a-2051-4d22-9d2e-9f8f7fa62659")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0104"
 			(at 308.61 182.88 0)
 			(effects
 				(font
@@ -19804,7 +20030,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -19889,7 +20115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92bae75c-41e8-49d9-b013-70e59ac48caf")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0124"
 			(at 189.23 182.88 0)
 			(effects
 				(font
@@ -19939,7 +20165,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -19955,7 +20181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9564f2fa-da4e-4ddd-9c0b-1d526d294213")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0140"
 			(at 212.09 243.84 0)
 			(effects
 				(font
@@ -20005,7 +20231,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -20165,7 +20391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "971f220b-e93a-47f2-9de3-6f5d1f7e6598")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0122"
 			(at 364.49 182.88 0)
 			(effects
 				(font
@@ -20215,7 +20441,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -20286,6 +20512,74 @@
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 60.96 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ed109d4-cab7-4dce-a0e9-df5bf2f805c8")
+		(property "Reference" "#FLG0105"
+			(at 59.055 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 59.6899 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 60.96 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2c19eaf-bda9-40fb-b95b-b4ae8f848c6e")
+		)
+		(instances
+			(project "Joule Chief Shield R1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0105")
 					(unit 1)
 				)
 			)
@@ -20399,7 +20693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fb32d06-5310-45ca-8edc-5ffc31d44cc1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0141"
 			(at 203.2 243.84 0)
 			(effects
 				(font
@@ -20449,7 +20743,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -20552,7 +20846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical"
 			(at 185.42 119.38 0)
 			(effects
 				(font
@@ -20634,7 +20928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 294.64 269.24 0)
 			(effects
 				(font
@@ -20998,7 +21292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 66.04 254 0)
 			(effects
 				(font
@@ -21068,7 +21362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 273.05 153.67 0)
 			(effects
 				(font
@@ -21147,7 +21441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 294.64 266.7 0)
 			(effects
 				(font
@@ -21374,7 +21668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 209.55 279.4 0)
 			(effects
 				(font
@@ -21444,7 +21738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 66.04 271.78 0)
 			(effects
 				(font
@@ -21496,7 +21790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b90e8e66-eed2-4512-aa84-10d4b016e6ec")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0125"
 			(at 196.85 182.88 0)
 			(effects
 				(font
@@ -21546,7 +21840,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -21561,7 +21855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb667859-d242-4e19-b21b-b3076087a624")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0137"
 			(at 133.35 147.32 0)
 			(effects
 				(font
@@ -21610,7 +21904,75 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 450.85 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be9403a7-0929-414d-a71a-744f5001ab47")
+		(property "Reference" "#FLG0107"
+			(at 450.85 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 453.39 219.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 450.85 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 450.85 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 450.85 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ace7089d-d353-419e-b5ed-728746ff9819")
+		)
+		(instances
+			(project "Joule Chief Shield R1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0107")
 					(unit 1)
 				)
 			)
@@ -21854,7 +22216,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 133.35 153.67 0)
 			(effects
 				(font
@@ -21906,6 +22268,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 60.96 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7f6919c-55cb-4be4-8500-1d54a386ffc0")
+		(property "Reference" "#FLG0104"
+			(at 59.055 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 59.6899 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 60.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5e69b4f-fe9b-4fc0-a753-2463131694a6")
+		)
+		(instances
+			(project "Joule Chief Shield R1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 217.17 176.53 0)
 		(unit 1)
@@ -21915,7 +22345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c837df5d-6b41-4a9a-9edd-8a6e1a1aa39a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0132"
 			(at 217.17 182.88 0)
 			(effects
 				(font
@@ -21965,7 +22395,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -21981,7 +22411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c934b5ad-d2a5-4aab-a972-500453a3c3c2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0110"
 			(at 273.05 182.88 0)
 			(effects
 				(font
@@ -22031,7 +22461,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -22065,7 +22495,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 161.29 153.67 0)
 			(effects
 				(font
@@ -22195,7 +22625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d10f44c7-6fc5-454f-b8f3-5640e90744f6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0135"
 			(at 133.35 182.88 0)
 			(effects
 				(font
@@ -22245,7 +22675,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -22279,7 +22709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 209.55 281.94 0)
 			(effects
 				(font
@@ -22699,7 +23129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e189998c-d90c-4a87-be37-ac5f1e80e58b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0142"
 			(at 198.12 243.84 0)
 			(effects
 				(font
@@ -22749,7 +23179,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -22764,7 +23194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e32e1a1a-8b1e-4ae3-be97-c78ae3cb1353")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0108"
 			(at 300.99 147.32 0)
 			(effects
 				(font
@@ -22813,7 +23243,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -23060,7 +23490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 66.04 269.24 0)
 			(effects
 				(font
@@ -23111,7 +23541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb05304a-5ed7-4f0a-a3f8-ff867e7003b8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0134"
 			(at 161.29 147.32 0)
 			(effects
 				(font
@@ -23160,7 +23590,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -23176,7 +23606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f395079d-ce29-4e58-8d06-c66df17375d8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0123"
 			(at 356.87 182.88 0)
 			(effects
 				(font
@@ -23226,7 +23656,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -23242,7 +23672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f50f6d9b-72cf-4796-8c75-3bc86c032f64")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0126"
 			(at 168.91 182.88 0)
 			(effects
 				(font
@@ -23292,7 +23722,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -23326,7 +23756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 294.64 259.08 0)
 			(effects
 				(font
@@ -23447,7 +23877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f934604c-a364-4b01-ac9f-9336e7b98e4d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0118"
 			(at 96.52 123.19 0)
 			(effects
 				(font
@@ -23496,7 +23926,75 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 472.44 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f96673c2-2a8a-422d-9569-cad2d2b8e96a")
+		(property "Reference" "#FLG0106"
+			(at 472.44 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 474.98 219.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 472.44 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 472.44 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 472.44 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4950b82c-3c54-4316-8cdb-d3d70bbaa630")
+		)
+		(instances
+			(project "Joule Chief Shield R1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0106")
 					(unit 1)
 				)
 			)
@@ -23585,7 +24083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb23672d-f341-4e5a-b688-00ac2afdfcb7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0145"
 			(at 185.42 299.72 0)
 			(effects
 				(font
@@ -23635,7 +24133,7 @@
 		(instances
 			(project "Joule Chief Shield R1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR?")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -23669,7 +24167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 294.64 271.78 0)
 			(effects
 				(font
