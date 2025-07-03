@@ -1,4 +1,4 @@
-24747842568281324
+24754848625307988
 000_Dropbin
 1F_Supercap
 
@@ -21,6 +21,20 @@ AA_Cell_Clip_V2
 2
 2
 000_Dropbin
+FS8205A
+8-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_8_05-08-1637.pdf
+TSOT-23-8 Hand-soldering
+0
+8
+8
+000_Dropbin
+Inductor Metal Block Test
+Inductor, APV, ANR3012, 3.0x3.0x1.2mm, (http://en.apvind.com/public/upload/20240407/3375c395e460caa8519b4d637d9113ce.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor wirewound power shielded
+0
+2
+2
+000_Dropbin
 Power_Inductor_101040
 SMD Power Inductor
 SMD Power Inductor
@@ -28,12 +42,26 @@ SMD Power Inductor
 2
 2
 000_Dropbin
+R_Shunt_2512_V2
+Shunt Resistor SMD 2512 (6332 Metric), 2.6mm thick, Vishay WKS2512, Terminal length (T) 1.19mm, 5 to 200 milli Ohm (http://http://www.vishay.com/docs/30108/wsk.pdf)
+resistor shunt WSK2512
+0
+4
+4
+000_Dropbin
 SMD_DPST_Switch
 SMD_DPST_Switch
 SMD_DPST_Switch
 0
 6
 6
+000_Dropbin
+SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_NoCore
+SOIC, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf#page=29), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
 Arduino_MountingHole
 MountingHole_1.2mm
 Mounting Hole 2.1mm, no annular

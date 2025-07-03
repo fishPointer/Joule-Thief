@@ -183,114 +183,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint_Alt"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Alt"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point (alternative shape)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_Alt_0_1"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.762 3.302) (xy 0 4.064) (xy 0.762 3.302) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_Alt_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
@@ -1617,8 +1509,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U13"
-				(at -1.27 16.51 0)
+			(property "Reference" "U7"
+				(at -5.08 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1626,7 +1518,7 @@
 				)
 			)
 			(property "Value" "FS8205A"
-				(at -1.27 13.97 0)
+				(at 1.778 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3799,6 +3691,12 @@
 		(uuid "12c6cc94-6a0c-4842-b3c6-fa04a56976ce")
 	)
 	(junction
+		(at 321.31 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ad80928-9eb7-4e54-b6d7-896ac8097a30")
+	)
+	(junction
 		(at 265.43 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3835,12 +3733,6 @@
 		(uuid "3d28a834-6502-4222-add9-e25ecd82508c")
 	)
 	(junction
-		(at 307.34 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3dd37ae8-3ad4-455a-a67d-c30640b39c3b")
-	)
-	(junction
 		(at 265.43 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3851,6 +3743,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "497494c1-583a-40f2-8975-62454f2f43b1")
+	)
+	(junction
+		(at 342.9 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c1ffa34-8aa2-4292-a3c8-a05cffff2336")
 	)
 	(junction
 		(at 265.43 149.86)
@@ -3871,16 +3769,16 @@
 		(uuid "74166423-bb5a-4b28-a0c1-539b66fefe79")
 	)
 	(junction
+		(at 294.64 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7545d157-fe6a-4bc4-a0ea-3a57f5d2a41a")
+	)
+	(junction
 		(at 314.96 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81a53a18-d5ea-4331-bcc0-e83485e419b4")
-	)
-	(junction
-		(at 294.64 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82d59685-daaa-4373-9826-e94dd16b8778")
 	)
 	(junction
 		(at 273.05 113.03)
@@ -3893,12 +3791,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ce00209-bc7a-4e18-943d-7b3e66137da6")
-	)
-	(junction
-		(at 198.12 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "902d2132-065f-4145-b216-cb42d9ec875e")
 	)
 	(junction
 		(at 278.13 113.03)
@@ -3965,6 +3857,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce638bbb-cadd-4f6c-b5dc-c15199907d71")
+	)
+	(junction
+		(at 307.34 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceee8d31-964e-490e-affe-b68428c80ff5")
 	)
 	(junction
 		(at 209.55 106.68)
@@ -4042,6 +3940,10 @@
 		(at 323.85 185.42)
 		(uuid "941659c4-85eb-4054-aef2-457e2f2f230d")
 	)
+	(no_connect
+		(at 172.72 116.84)
+		(uuid "a554c070-3f4a-41e6-b68b-a63833220f31")
+	)
 	(wire
 		(pts
 			(xy 265.43 151.13) (xy 265.43 153.67)
@@ -4071,16 +3973,6 @@
 			(type default)
 		)
 		(uuid "039470fd-b7f2-4d8f-92ca-2489eac8ad64")
-	)
-	(wire
-		(pts
-			(xy 193.04 106.68) (xy 198.12 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03eb70ef-87d3-4db4-b5b3-21375ee2f268")
 	)
 	(wire
 		(pts
@@ -4264,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 114.3) (xy 353.06 152.4)
+			(xy 353.06 115.57) (xy 353.06 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4544,16 +4436,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 137.16) (xy 294.64 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eb38a3a-e6dc-4789-b9cd-caa3c9024ad2")
-	)
-	(wire
-		(pts
 			(xy 209.55 116.84) (xy 209.55 118.11)
 		)
 		(stroke
@@ -4564,7 +4446,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 99.06) (xy 327.66 99.06)
+			(xy 339.09 97.79) (xy 330.2 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4654,16 +4536,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 101.6) (xy 307.34 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b571588-546a-4f24-942b-9f81f08cc671")
-	)
-	(wire
-		(pts
 			(xy 105.41 148.59) (xy 105.41 151.13)
 		)
 		(stroke
@@ -4724,6 +4596,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 106.68) (xy 307.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a781ec-4c6b-4b59-84b5-a12c51ef8349")
+	)
+	(wire
+		(pts
 			(xy 135.89 134.62) (xy 134.62 134.62)
 		)
 		(stroke
@@ -4774,7 +4656,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 106.68) (xy 209.55 106.68)
+			(xy 193.04 106.68) (xy 209.55 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4834,16 +4716,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 101.6) (xy 317.5 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63d2ed20-dc37-4ff2-bd1b-4ab999c3ec0b")
-	)
-	(wire
-		(pts
 			(xy 204.47 118.11) (xy 209.55 118.11)
 		)
 		(stroke
@@ -4864,16 +4736,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 106.68) (xy 307.34 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6920fc46-b8eb-4924-a40e-2cb4f259bfc4")
-	)
-	(wire
-		(pts
 			(xy 265.43 163.83) (xy 265.43 166.37)
 		)
 		(stroke
@@ -4891,16 +4753,6 @@
 			(type default)
 		)
 		(uuid "6aa8f547-3728-42e2-af37-74da58134f7c")
-	)
-	(wire
-		(pts
-			(xy 294.64 137.16) (xy 294.64 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e34163d-b135-4d48-8e7d-900824127d5c")
 	)
 	(wire
 		(pts
@@ -4994,13 +4846,23 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 111.76) (xy 317.5 111.76)
+			(xy 307.34 113.03) (xy 320.04 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "77920af3-e5cb-475b-b99f-fc82cb465573")
+	)
+	(wire
+		(pts
+			(xy 294.64 134.62) (xy 294.64 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780727cc-b041-4f1f-a5e9-71bb44bc9054")
 	)
 	(wire
 		(pts
@@ -5064,7 +4926,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 96.52) (xy 313.69 96.52)
+			(xy 330.2 102.87) (xy 339.09 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5154,23 +5016,13 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 109.22) (xy 330.2 109.22)
+			(xy 330.2 110.49) (xy 331.47 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8741cc7f-21b2-41ec-8734-d2e6b21ef21f")
-	)
-	(wire
-		(pts
-			(xy 294.64 134.62) (xy 294.64 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ab8c24c-94d7-4205-99c7-8b3db59fca31")
 	)
 	(wire
 		(pts
@@ -5201,6 +5053,16 @@
 			(type default)
 		)
 		(uuid "8d9febd5-6d13-4434-bf51-8fc76dcec99c")
+	)
+	(wire
+		(pts
+			(xy 294.64 137.16) (xy 294.64 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c0e9e2-b71c-47b6-b7ad-a2f790c44356")
 	)
 	(wire
 		(pts
@@ -5384,16 +5246,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 106.68) (xy 198.12 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a454fa21-5c8c-4ca1-b5b4-372a03ce9e67")
-	)
-	(wire
-		(pts
 			(xy 196.85 165.1) (xy 199.39 165.1)
 		)
 		(stroke
@@ -5401,6 +5253,16 @@
 			(type default)
 		)
 		(uuid "a6e2a69b-b357-4a10-b200-c5e133e6ce4a")
+	)
+	(wire
+		(pts
+			(xy 307.34 106.68) (xy 307.34 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c17186-0532-445c-aee0-643eca3c0fdf")
 	)
 	(wire
 		(pts
@@ -5814,6 +5676,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 100.33) (xy 320.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b09472-c3f0-4dfa-ab13-c3feee84de0f")
+	)
+	(wire
+		(pts
 			(xy 204.47 111.76) (xy 204.47 118.11)
 		)
 		(stroke
@@ -6054,7 +5926,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 114.3) (xy 327.66 114.3)
+			(xy 353.06 115.57) (xy 330.2 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6170,7 +6042,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 374.65 96.52 0)
+		(at 374.65 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6180,7 +6052,7 @@
 		)
 		(uuid "125dfdea-3199-4c92-8f68-1bc955f99b00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.0479 96.52 0)
+			(at 381.0479 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,7 +6196,7 @@
 	)
 	(global_label "SHDN"
 		(shape input)
-		(at 374.65 88.9 0)
+		(at 374.65 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6335,7 +6207,7 @@
 		)
 		(uuid "4aa2ed82-41f4-41fb-bd83-b53db1863443")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.0479 88.9 0)
+			(at 379.8574 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,22 +6264,22 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 313.69 96.52 180)
+		(at 339.09 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5d2c2b79-3ccf-4a4c-89d5-87e2d323b385")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.4826 96.52 0)
+			(at 344.2974 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6469,28 +6341,6 @@
 		(uuid "680a3973-af5c-4083-83b5-8e3c33c16a44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 381.9617 152.3206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VOUT"
-		(shape input)
-		(at 374.65 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "6b0e2b72-cb60-4900-84e6-0a224b2fc296")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.7145 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6528,7 @@
 	)
 	(global_label "VOUT"
 		(shape input)
-		(at 337.82 109.22 0)
+		(at 339.09 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6689,7 +6539,7 @@
 		)
 		(uuid "95a997e1-7861-4a4e-abf8-f92a303e5956")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 343.8845 109.22 0)
+			(at 345.1545 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,7 +6639,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 374.65 99.06 0)
+		(at 374.65 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6799,7 +6649,7 @@
 		)
 		(uuid "b0038a28-d497-4b87-b3e2-6b3eaccba8fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 379.8574 99.06 0)
+			(at 380.7145 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,6 +6694,29 @@
 		(uuid "c38c28b2-4b00-4506-b758-cadf25e73353")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 219.5674 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VOUT"
+		(shape input)
+		(at 374.65 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+				(color 255 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "cc1a765e-661b-4d87-a461-217fe9738186")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 380.0479 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +6926,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 331.47 99.06 0)
+		(at 339.09 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7063,7 +6936,7 @@
 		)
 		(uuid "fafaeb77-88d9-4c1c-8b94-88e0418a8e6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.6774 99.06 0)
+			(at 345.2974 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +7172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 156.21 0)
 			(effects
 				(font
@@ -7369,7 +7242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 257.81 146.05 0)
 			(effects
 				(font
@@ -7509,7 +7382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 163.83 0)
 			(effects
 				(font
@@ -7658,7 +7531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d4bb4a3-1d16-4aab-aa67-62c8182a3c95")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG02"
 			(at 62.865 119.38 0)
 			(effects
 				(font
@@ -7709,7 +7582,75 @@
 		(instances
 			(project "Joule-Thief"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#FLG?")
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 182.88 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2686ed63-2cf7-4bbe-8504-452cb69a1951")
+		(property "Reference" "L1"
+			(at 182.88 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 182.88 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_Dropbin:Power_Inductor_101040"
+			(at 182.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 182.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0426297d-ea29-4ad1-a49d-c7933258b29c")
+		)
+		(pin "1"
+			(uuid "2264deb9-4202-4363-a029-7d24b3a827ec")
+		)
+		(instances
+			(project "Joule_Thief_R1"
+				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -7864,7 +7805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ab3d81a-b4a6-468f-a035-b52640b62f98")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0105"
 			(at 151.13 134.62 0)
 			(effects
 				(font
@@ -7914,7 +7855,7 @@
 		(instances
 			(project "Joule Thief"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#PWR?")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -8001,7 +7942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34e02632-9d7d-4a0a-9b85-135cce27a388")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG0101"
 			(at 156.21 102.235 0)
 			(effects
 				(font
@@ -8052,72 +7993,7 @@
 		(instances
 			(project ""
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#FLG?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 172.72 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38ff9e6f-1b4d-4324-9ebf-8fe841d42a5d")
-		(property "Reference" "TPx1"
-			(at 166.624 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 169.418 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 172.72 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86a3fb28-8186-4759-ad68-1e82debd08d9")
-		)
-		(instances
-			(project "Joule_Thief_R1"
-				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "TPx1")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -8209,75 +8085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 368.3 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3be27530-fe9c-437d-8161-78249c6ef70f")
-		(property "Reference" "LITH1"
-			(at 368.808 166.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18650"
-			(at 368.808 168.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Joule Thief-Library:18650_Cell_Clip"
-			(at 368.3 163.576 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.3 163.576 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 368.3 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b8d43f3-f944-481e-9332-58019626d758")
-		)
-		(pin "2"
-			(uuid "eb19a419-70eb-4e1e-81d4-d50300e01077")
-		)
-		(instances
-			(project "Joule_Thief_R1"
-				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "LITH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 161.29 128.27 0)
 		(unit 1)
@@ -8287,7 +8094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d00aabf-d6b1-41fb-b517-740a843d1f28")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0106"
 			(at 161.29 134.62 0)
 			(effects
 				(font
@@ -8337,7 +8144,7 @@
 		(instances
 			(project "Joule Thief"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#PWR?")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -8353,7 +8160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dcddce2-c9b3-4d31-ab72-b63b03e85a6c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0109"
 			(at 182.88 135.89 0)
 			(effects
 				(font
@@ -8403,7 +8210,7 @@
 		(instances
 			(project "Joule Thief"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#PWR?")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -8437,7 +8244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 207.01 173.99 0)
 			(effects
 				(font
@@ -8507,7 +8314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 146.05 0)
 			(effects
 				(font
@@ -8688,6 +8495,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 342.9 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a279611-b1e0-4a1d-9d0f-2b46e041514b")
+		(property "Reference" "#FLG0108"
+			(at 342.9 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 345.44 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 342.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00c7ff0b-ffd2-4281-b33f-62c1512a68d6")
+		)
+		(instances
+			(project "Joule_Thief_R1"
+				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
+					(reference "#FLG0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 273.05 119.38 180)
 		(unit 1)
@@ -8765,7 +8640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5103338d-6d1f-450a-80b4-bbfb6de0b87e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0103"
 			(at 187.96 162.56 0)
 			(effects
 				(font
@@ -8815,7 +8690,7 @@
 		(instances
 			(project "Joule_Thief_R1"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#PWR?")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -8830,7 +8705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "592ea4fe-8106-4d2a-9432-ac89e977123d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0104"
 			(at 182.88 191.77 0)
 			(effects
 				(font
@@ -8880,7 +8755,7 @@
 		(instances
 			(project "Joule_Thief_R1"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#PWR?")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -8914,7 +8789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 257.81 158.75 0)
 			(effects
 				(font
@@ -8984,7 +8859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 151.13 0)
 			(effects
 				(font
@@ -9054,7 +8929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Joule Thief-Library:AA_Cell_Clip"
+		(property "Footprint" "000_Dropbin:AA_Cell_Clip_V2"
 			(at 64.77 110.236 90)
 			(effects
 				(font
@@ -9106,7 +8981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "622b7e30-70c2-4997-876a-ebfed45d5f3f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0108"
 			(at 195.58 135.89 0)
 			(effects
 				(font
@@ -9156,7 +9031,7 @@
 		(instances
 			(project "Joule Thief"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#PWR?")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -9190,7 +9065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 148.59 0)
 			(effects
 				(font
@@ -9260,7 +9135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 257.81 148.59 0)
 			(effects
 				(font
@@ -9409,7 +9284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 207.01 171.45 0)
 			(effects
 				(font
@@ -9516,75 +9391,6 @@
 			(project "Joule_Thief_R1"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 219.71 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75c59f5d-f50c-4cdc-bd9f-7f8c6a3ad147")
-		(property "Reference" "C3"
-			(at 222.25 111.7535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100u"
-			(at 222.25 114.2935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 219.71 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93ac5b59-3cb4-4e8a-abcf-6ff468be2aef")
-		)
-		(pin "2"
-			(uuid "75c26bea-21f1-4699-ae20-2ff6a83685ae")
-		)
-		(instances
-			(project "Joule-Thief"
-				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9698,8 +9504,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 322.58 111.76 0)
-		(mirror x)
+		(at 325.12 100.33 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9708,7 +9513,7 @@
 		(fields_autoplaced yes)
 		(uuid "82ad1e1d-1bc5-406c-ad98-4281afa88423")
 		(property "Reference" "SW1"
-			(at 322.58 120.65 0)
+			(at 325.12 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9716,15 +9521,15 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 322.58 118.11 0)
+			(at 325.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 322.58 111.76 0)
+		(property "Footprint" "000_Dropbin:SS22F25_DPDT_Straight_V2"
+			(at 325.12 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9733,7 +9538,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 322.58 111.76 0)
+			(at 325.12 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9742,7 +9547,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 322.58 111.76 0)
+			(at 325.12 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9786,7 +9591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84c3d754-49db-435e-91fa-0601ca1efa39")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG01"
 			(at 62.865 100.33 0)
 			(effects
 				(font
@@ -9837,7 +9642,7 @@
 		(instances
 			(project ""
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#FLG?")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -9871,7 +9676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 161.29 0)
 			(effects
 				(font
@@ -9914,6 +9719,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 368.3 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8744e71d-1080-46f2-8d5c-bf72aed02a31")
+		(property "Reference" "LITH1"
+			(at 368.808 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18650"
+			(at 368.808 168.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_Dropbin:18650_Cell_Clip_V2"
+			(at 368.3 163.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 163.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 368.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a6e7f8f-285d-4f87-ab07-909bc35c4a67")
+		)
+		(pin "2"
+			(uuid "269e499e-3af5-4240-be48-3acf5c655ad0")
+		)
+		(instances
+			(project "Joule_Thief_R1"
+				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
+					(reference "LITH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 97.79 143.51 180)
 		(unit 1)
@@ -9941,7 +9815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 143.51 0)
 			(effects
 				(font
@@ -10011,7 +9885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 207.01 181.61 0)
 			(effects
 				(font
@@ -10081,7 +9955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 158.75 0)
 			(effects
 				(font
@@ -10284,7 +10158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
+		(property "Footprint" "000_Dropbin:R_Shunt_2512_V2"
 			(at 115.57 102.362 90)
 			(effects
 				(font
@@ -10327,6 +10201,74 @@
 			(project "Joule_Thief_R1"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 135.89 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1bea58e-ca73-4ca1-a8a5-38abd6c592fa")
+		(property "Reference" "#FLG0102"
+			(at 137.795 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 139.7 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 135.89 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77cb5d63-e5f8-4754-80fc-cd135b98ac2b")
+		)
+		(instances
+			(project "Joule_Thief_R1"
+				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -10413,7 +10355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3b01af3-f400-49e9-9e5b-bd7ecbc3f6ad")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0110"
 			(at 134.62 148.59 0)
 			(effects
 				(font
@@ -10463,7 +10405,7 @@
 		(instances
 			(project "Joule_Thief_R1"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#PWR?")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -10497,7 +10439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 257.81 151.13 0)
 			(effects
 				(font
@@ -10567,7 +10509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 207.01 179.07 0)
 			(effects
 				(font
@@ -10611,7 +10553,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 322.58 99.06 180)
+		(at 325.12 113.03 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10619,7 +10562,7 @@
 		(dnp no)
 		(uuid "b6dcf958-e54f-435d-9fd4-ff60d27addff")
 		(property "Reference" "SW1"
-			(at 322.58 90.932 0)
+			(at 325.12 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10627,15 +10570,15 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 322.58 93.218 0)
+			(at 325.12 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 322.58 99.06 0)
+		(property "Footprint" "000_Dropbin:SS22F25_DPDT_Straight_V2"
+			(at 325.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10644,7 +10587,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 322.58 99.06 0)
+			(at 325.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10653,7 +10596,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 322.58 99.06 0)
+			(at 325.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,7 +10659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 257.81 166.37 0)
 			(effects
 				(font
@@ -10786,7 +10729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 367.03 93.98 0)
 			(effects
 				(font
@@ -10908,32 +10851,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 334.01 109.22 180)
+		(lib_id "power:PWR_FLAG")
+		(at 321.31 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c188ee97-78d4-43c5-994f-494013c3f946")
-		(property "Reference" "D1"
-			(at 334.01 103.886 0)
+		(fields_autoplaced yes)
+		(uuid "be9403a7-0929-414d-a71a-744f5001ab47")
+		(property "Reference" "#FLG0107"
+			(at 321.31 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 334.01 105.918 0)
+		(property "Value" "PWR_FLAG"
+			(at 323.85 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 334.01 109.22 0)
+			(at 321.31 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10942,7 +10889,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 334.01 109.22 0)
+			(at 321.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 321.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ace7089d-d353-419e-b5ed-728746ff9819")
+		)
+		(instances
+			(project "Joule_Thief_R1"
+				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
+					(reference "#FLG0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 335.28 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c188ee97-78d4-43c5-994f-494013c3f946")
+		(property "Reference" "D1"
+			(at 335.28 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 335.28 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 335.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,7 +10962,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 334.01 109.22 0)
+			(at 335.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10984,7 +10995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4adf6c0-1b6a-4237-acd9-0926c8ba7286")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0113"
 			(at 219.71 135.89 0)
 			(effects
 				(font
@@ -11034,7 +11045,7 @@
 		(instances
 			(project "Joule-Thief"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#PWR?")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -11276,7 +11287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 257.81 161.29 0)
 			(effects
 				(font
@@ -11319,74 +11330,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 182.88 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4a56249-5be6-4114-a70b-689a2ce05d37")
-		(property "Reference" "L1"
-			(at 182.88 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 182.88 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Joule Thief-Library:Power_Inductor_101040"
-			(at 182.88 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 182.88 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c423419c-6229-4911-9d2b-ceebb60d2f30")
-		)
-		(pin "1"
-			(uuid "b3ca71fb-c85d-4989-b625-06e1887d3085")
-		)
-		(instances
-			(project ""
-				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 294.64 144.78 0)
 		(mirror y)
@@ -11397,7 +11340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5daf477-ac1a-4f6d-aa46-e0d158ab8dac")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0111"
 			(at 294.64 151.13 0)
 			(effects
 				(font
@@ -11447,7 +11390,7 @@
 		(instances
 			(project "Joule_Thief_R1"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#PWR?")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -11462,7 +11405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de3ca8e6-982d-423b-8cff-1505e4550403")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR01"
 			(at 64.77 102.87 0)
 			(effects
 				(font
@@ -11513,7 +11456,7 @@
 		(instances
 			(project ""
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#PWR?")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11529,7 +11472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e09801cf-f038-4048-b40f-154fa2f544ce")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0112"
 			(at 209.55 135.89 0)
 			(effects
 				(font
@@ -11579,7 +11522,7 @@
 		(instances
 			(project "Joule Thief"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#PWR?")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -11595,7 +11538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e14c4061-38d4-45d6-900b-c7745e50fd0f")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 336.55 166.116 0)
 			(effects
 				(font
@@ -11611,7 +11554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8_Handsoldering"
 			(at 327.66 163.83 0)
 			(effects
 				(font
@@ -11665,7 +11608,7 @@
 		(instances
 			(project "Joule_Thief_R1"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -11769,7 +11712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 257.81 163.83 0)
 			(effects
 				(font
@@ -11821,7 +11764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8575415-0c25-46f3-9956-6ad402aa3cac")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0107"
 			(at 200.66 135.89 0)
 			(effects
 				(font
@@ -11871,7 +11814,76 @@
 		(instances
 			(project "Joule Thief"
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#PWR?")
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 219.71 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef149ed1-cbdf-42eb-8f52-5e7f621e6f50")
+		(property "Reference" "C3"
+			(at 222.25 111.7535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100u"
+			(at 222.25 114.2935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99a6c964-531f-4bea-9a48-b57d03310040")
+		)
+		(pin "2"
+			(uuid "241e70a0-6726-461a-90f9-4d8fbc75f42d")
+		)
+		(instances
+			(project "Joule_Thief_R1"
+				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11905,7 +11917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 257.81 153.67 0)
 			(effects
 				(font
@@ -11972,7 +11984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
+		(property "Footprint" "000_Dropbin:R_Shunt_2512_V2"
 			(at 275.59 104.902 90)
 			(effects
 				(font
@@ -12030,7 +12042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fddbb285-4cfd-4673-9db9-247c5e6d660a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 64.77 128.27 0)
 			(effects
 				(font
@@ -12080,7 +12092,7 @@
 		(instances
 			(project ""
 				(path "/c192bb79-89ec-45a3-8a38-01bead27b5aa"
-					(reference "#PWR?")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
