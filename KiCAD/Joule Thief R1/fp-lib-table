@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Joule Thief-Library")(type "KiCad")(uri "${KIPRJMOD}/Joule_Thief_R0-Library.pretty")(options "")(descr ""))
-)

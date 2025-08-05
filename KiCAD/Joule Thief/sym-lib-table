@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Joule Thief Symbols")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Joule Thief Symbols.kicad_sym")(options "")(descr ""))
+)

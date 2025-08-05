@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Joule Thief")(type "KiCad")(uri "E:/Dropbox/SUNEATER LABS/SUNEATER LABS/!PROJECTS/Joule-Thief/KiCAD/Joule Thief R1")(options "")(descr ""))
-  (lib (name "Joule_Thief_R1")(type "KiCad")(uri "${KIPRJMOD}/Joule_Thief_R1.kicad_sym")(options "")(descr ""))
-)

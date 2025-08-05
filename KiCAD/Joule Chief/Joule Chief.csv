@@ -1,0 +1,30 @@
+Reference,Value,Qty,Footprint
+"C1,C3,C9,C10,C11,C12,C13",0.1u,7,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+"C2,C5",1F,2,Joule Thief Footprints:1F_Supercap
+C4,100u,1,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+"C6,C14",10u,2,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+C7,1u,1,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+C8,4.7u,1,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11",LED,11,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+"J1,J2,J3,J4,J5,J6,J7",Conn_01x06,7,Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical
+"J8,J11",Digital/PWM,2,"Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
+J9,Power,1,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical
+J10,Analog,1,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical
+L1,10u,1,Joule Thief Footprints:Power_Inductor_101040
+LITH1,18650,1,Joule Thief Footprints:18650_Cell_Clip_V2
+"Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10",AO3400A,10,Package_TO_SOT_SMD:SOT-23
+"R1,R6",0.1R,2,Joule Thief Footprints:R_Shunt_2512_V2
+"R2,R3,R7,R8",10,4,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+R4,1M,1,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+R5,220k,1,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+R9,100,1,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+"R10,R11,R12,R13,R17,R18,R19,R20,R21,R22,R23,R24,R25",1k,13,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+"R14,R26,R27,R28,R29,R30,R31,R32,R33,R34",10k,10,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+"R15,R16",2.2k,2,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+TPx1,TestPoint_Alt,1,TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm
+"U1,U4",INA219AxD,2,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+U2,LTC3105xMS,1,Package_SO:MSOP-12_3x4.039mm_P0.65mm
+U3,AD5280,1,Package_SO:TSSOP-14_4.4x5mm_P0.65mm
+U5,DW01,1,Package_TO_SOT_SMD:SOT-23-6_Handsoldering
+U6,TP4056,1,Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm
+U7,FS8205A,1,Joule Thief Footprints:FS8205A_Wide

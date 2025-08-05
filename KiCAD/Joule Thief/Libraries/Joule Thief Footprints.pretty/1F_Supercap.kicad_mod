@@ -1,0 +1,131 @@
+(footprint "1F_Supercap"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Kyocera Supercap")
+	(property "Reference" "REF**"
+		(at 0 14.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1184772e-f539-4aca-b1d7-9bafeae4feb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1F_Supercap"
+		(at 0 16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2ee28ec4-8fc4-401c-a3a9-4915d5e22034")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af78f7b7-fc1c-414f-b3c6-ba8e37fc1d1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35573e0c-a555-4587-a21b-08bd87205afd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.1 -12.6)
+		(end 5.1 12.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1025db7c-370d-4930-9d3e-b2d1fcbdfde4")
+	)
+	(fp_rect
+		(start -5.5 -13)
+		(end 5.5 13)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "256a3437-72b4-4a3f-9172-ca478c376704")
+	)
+	(fp_rect
+		(start -5 -12.5)
+		(end 5 12.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f8f69a71-fe71-4246-abb5-0dcded211f0a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 17.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4fb20937-56c3-4cd6-8f62-af3aab660214")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -7.5)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a4ad1bf5-e7be-40f3-b012-6051f5188804")
+	)
+	(pad "2" thru_hole circle
+		(at 0 7.5)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e6a94c66-b39c-47d2-a39f-5222eaab6456")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L29.0mm_W11.9mm_P27.50mm_MKT.step"
+		(offset
+			(xyz 0 -12.5 0)
+		)
+		(scale
+			(xyz 0.9 0.8 0.5)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
